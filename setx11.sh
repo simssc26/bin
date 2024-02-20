@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+unset XDG_SESSION_TYPE 
+unset QT_QPA_PLATFORM 
+unset SDL_VIDEODRIVER 
+unset GDK_BACKEND 
+unset ECORE_EVAS_ENGINE 
+unset ELM_ENGINE 
+unset CLUTTER_BACKEND
+unset EGL_PLATFORM
+echo "X11!"
